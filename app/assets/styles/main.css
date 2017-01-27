@@ -1,0 +1,67 @@
+body {
+  font: normal normal 18px/22px 'Helvetica';
+  color: #555;
+  margin: 0px auto;
+  max-width: 800px;
+}
+
+#main h1 {
+  font-size: 36px;
+  padding: 10px;
+  font-weight: 400;
+}
+
+#main h2 {
+  font-size: 20px;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+#main {
+  text-align: center;
+}
+
+#dashboard, #login {
+  background: #eee;
+  padding: 50px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+
+a:link, a:visited {
+  font-weight: 700;
+  color: #45abce;
+  text-decoration: none;
+}
+
+input[type="text"] {
+  padding: 5px 10px;
+  font-size: 16px;
+  font-weight: 300;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  width: 180px;
+}
+
+label {
+  display: block;
+  text-align: left;
+  width: 200px;
+  margin: 5px auto;
+}
+
+button {
+  border: 1px solid rgba(0,0,0,0.2);
+  border-radius: 3px;
+  background: #45abce;
+  padding: 8px 20px;
+  width: 200px;
+  font-size: 20px;
+}
+
+.errorMessage {
+  color: red;
+  font-weight: bold;
+  font-size: 13px;
+}
