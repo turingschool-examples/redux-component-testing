@@ -64,7 +64,7 @@ export default class Login extends Component {
         </label>
         <label>
           Password: <br/>
-          <input type='text' value={password} name='password' onChange={this.handleChange.bind(this)}/>
+          <input type='password' value={password} name='password' onChange={this.handleChange.bind(this)}/>
         </label>
         <button onClick={this.login.bind(this)}>Login</button>
       </div>
